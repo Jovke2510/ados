@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imgdsp>
+<imgdsp>
+    <programs>
+        <program name="Augmentation 1">
+            <params>
+            	<param name="angle" min="0" current="0" max="360"/>
+            </params>
+        </program>
+        <program name="Augmentation 2">
+        	<param name="increment" min="0" current="180" max="360"/>
+        </program>
+        <program name="Augmentation 3">
+            <params>
+            	<param name="occlusion_size" min="0" current="150" max="300"/>
+            </params>
+        </program>
+        <program name="Augmentation 4">
+            <params>
+            	<param name="B" min="0" current="50" max="100"/>
+            	<param name="strength" min="0" current="0" max="1"/>
+            </params>
+        </program>
+    </programs>
+    <in_imgs>
+        <in_img file_name="playing_kitten.jpg"/>
+        <in_img file_name="baboon.bmp"/>
+        <in_img file_name="green_cat.jpg"/>
+        <in_img file_name="Party.jpg"/>
+        <in_img file_name="CatWithGreenEyes.png"/>
+        <in_img file_name="sl1.jpg"/>
+        <in_img file_name="sl2.jpg"/>
+    </in_imgs>
+    <out_imgs>
+        <out_img file_name="processed_img.jpg"/>
+    </out_imgs>
+</imgdsp>
